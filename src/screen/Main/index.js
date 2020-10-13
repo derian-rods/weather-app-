@@ -18,7 +18,7 @@ export const Main = () => {
                 : 
                 (
                     <>
-                <h1>This site web is only for mobile</h1>        
+                <h1 translate='no'>This site web is only for mobile </h1>        
                 <main translate='no'>
                   <CurrentWeather />
                   <HourlyWeather />

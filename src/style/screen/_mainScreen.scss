@@ -243,11 +243,18 @@ small{
     }
     main{
         box-shadow: 0 0 10px #000;
-        width: 530px;
-        height: 1000px;
+        width: 35em;
+        height: 60em;
         overflow-y: auto;
     }
+    .hourly__container{
+        overflow-x: hidden;
+        &:hover{
+            overflow-x: scroll;
+        }
+    }
     h1{
+        color: white;
         text-align: center;
         margin-bottom: 1em;
         display: block;
