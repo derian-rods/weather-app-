@@ -1,0 +1,20 @@
+.btn{
+    background: $primary;
+    border: 2px solid lighten($color: $primary, $amount: 10);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.644);
+    padding: 5px 7px 5px 7px;
+    &:hover{
+        outline: none;
+        background: darken($color: $primary, $amount: 20);
+    }
+}
+
+.btn-larger{
+    width: 8em;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}

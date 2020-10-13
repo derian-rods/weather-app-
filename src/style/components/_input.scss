@@ -1,0 +1,13 @@
+input[type='text'] {
+    display: block;
+    border: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.644);
+    padding: 5px 7px 5px 7px;
+    text-align: center;
+    margin-bottom: 20px;
+    &:focus{
+        box-shadow:  0px 0px 2px 3px rgb(243, 255, 139);
+        outline: none
+    }
+}
