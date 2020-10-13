@@ -234,7 +234,7 @@ small{
     margin-left: 2em;
 }
 // desktop
-@media screen and (min-width: 768px){
+@media (min-width: 768px){
     body{
         align-items: center;
         display: flex;
@@ -243,8 +243,8 @@ small{
     }
     main{
         box-shadow: 0 0 10px #000;
-        width: 35em;
-        height: 60em;
+        width: 30em;
+        height: 80vh;
         overflow-y: auto;
     }
     .hourly__container{
